@@ -1,0 +1,71 @@
+* {
+  text-align: center;
+}
+
+.nav-links {
+  width: 100%;
+  display: flex;
+  justify-content: end;
+  align-items: flex-end;
+  list-style: inside;
+  margin-right: 10px;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: #fff;
+  margin-right: 10px;
+}
+
+.btn-addStudent {
+  background-color: blue;
+  font-size: 12px;
+  padding: 10px 24px;
+  border-radius: 8px;
+  border: 1px solid;
+  position: absolute;
+  right: 10px;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  transition-duration: 0.4s;
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24),
+    0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
+
+.table-students {
+  border: 1px solid black;
+}
+
+.table-books {
+  border: 1px solid black;
+}
+
+table, th, td {
+  border: 1px solid black;
+}
+
+table {
+  width: 100%;
+  margin-top: 70px;
+}
+
+th,
+td {
+  padding: 10px;
+  text-align: left;
+}
+
+.header {
+  text-align: center;
+}
+
+.row-btn-students{
+  margin-left: 10px;
+}
+
+.row-btn-books{
+  margin-left: 10px;
+}
+
+
+
